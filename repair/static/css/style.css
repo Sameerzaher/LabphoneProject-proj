@@ -1,0 +1,423 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+* {
+  font-family: 'Heebo', sans-serif;
+}
+
+/* General */
+
+.carousel-indicators {
+  padding-right: 0;
+}
+ul
+{
+  list-style-type: none;
+}
+/* Navbar */
+#rightnav
+{
+  margin-right: 500px;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-nav {
+  margin: 35px 1200px 10px;
+
+  margin-top: -20px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+  font-size:1.3em;
+
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #fca720;
+}
+
+.navbar-inner .navbar-nav li a {
+  color: #6d6d6d;
+}
+
+.logo img {
+  margin: 15px 0 0 0;
+}
+
+header {
+  margin-top:65%;
+  color: #fff;
+  background: url('../images/iphone7+.jpg');
+  background-size: cover;
+  padding: 20px 0;
+}
+
+strong {
+  color: #16a085;
+}
+
+/* Slider */
+
+#slider {
+  background: url('../images/iphone7+.jpg');
+  width: 100%;
+  background-size: cover;
+  background-position: 100% 20%;
+  min-height: 350px;
+}
+
+.item {
+  color: #fff;
+  padding: 100px 0;
+}
+
+.item h1 {
+  font-size: 3.8em;
+}
+
+.item h2 {
+  margin-top: -10px;
+}
+
+.carousel-indicators li {
+  background-color: #fff;
+  margin: 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #16a085;
+  border: 1px solid #16a085;
+  margin: 5px;
+}
+
+.btn-success {
+  background-color: #5cc97a;
+  border-color: #5cc97a;
+  padding: 10px 20px;
+  margin:15px 0;
+}
+
+.btn-success:hover {
+  background-color: #5cc97a;
+  border-color: #5cc97a;
+}
+
+.btn-success:focus, .btn-success:active:focus {
+  background-color: #5cc97a;
+  border-color: #5cc97a;
+}
+
+/* Media Queries */
+
+@media(max-width:768px) {
+
+  .logo img {
+    margin: 10px 0 0 15px;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+
+  .navbar-toggle {
+    margin-top: 45px;
+  }
+
+  .navbar-default .navbar-toggle {
+      background: #fff;
+  }
+
+  .navbar-collapse {
+    margin-top: 30px;
+    border: none;
+  }
+
+  .navbar-inner .navbar-nav li a {
+    color: #fff;
+  }
+
+  #opening-hours table {
+    margin-bottom: 35px;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  #staff .staff-member img {
+    margin-top: 20px;
+  }
+
+  #community img {
+    margin: 10px 0;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer img {
+    margin: 0 auto;
+  }
+
+}
+
+/* features */
+
+#features {
+  background-color: #f5f6f7;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#features h1 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #16a085;
+}
+
+#features .fa {
+  color: #16a085;
+}
+
+#features .fa:hover {
+  color: #0e6655;
+}
+
+/* About */
+
+#about {
+  padding: 80px 0;
+}
+
+#about h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #16a085;
+}
+
+/* Service */
+
+.service {
+  padding: 80px 0;
+}
+
+.service:nth-child(even) {
+  background-color: #f5f6f7;
+}
+
+.service h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #16a085;
+}
+
+/* Community */
+
+#community {
+  padding: 80px 0;
+}
+
+#community h1 {
+  font-size: 2em;
+  color: #16a085;
+  font-weight: 700;
+}
+
+
+
+/* Staff */
+
+#staff {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f5f6f7;
+}
+
+#staff p {
+  padding: 20px 0;
+}
+
+#staff h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #16a085;
+}
+
+#staff .staff-member img {
+  border: 5px solid #16a085;
+  transition: all 0.18s;
+}
+
+#staff .staff-member img:hover {
+  transform: scale(1.15);
+}
+
+#staff .staff-member h1 {
+  font-size: 1.5em;
+}
+
+#staff .staff-member h2 {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+/* Opening hours */
+
+#opening-hours {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f5f6f7;
+}
+
+#opening-hours p {
+  text-align: right;
+}
+
+#opening-hours h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #16a085;
+}
+
+#opening-hours table tr:first-child td {
+  border-top: 0;
+}
+
+#opening-hours table tr td {
+
+}
+
+#opening-hours table tr td:nth-child(2) {
+  direction: ltr;
+}
+
+/* Footer */
+
+#footer {
+  padding: 50px 0;
+  background-color: #333;
+}
+
+#footer p {
+  color: #fff;
+  font-weight: 700;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #16a085;
+  text-decoration: none;
+}
+
+/* Prices */
+
+#prices {
+  padding: 100px 0;
+  text-align: center;
+  background: url('../img/bg-prices.jpg');
+  background-size: cover;
+  background-position: 100% 40%;
+}
+
+#prices .panel-heading h3 {
+  color: #16a085;
+  font-size: 2em;
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+#prices ul {
+  padding: 0;
+}
+
+#prices ul li {
+  list-style: none;
+  line-height: 2.2em;
+}
+
+#prices p {
+  text-align: right;
+}
+
+#prices h1 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #16a085;
+}
+
+.logo img {
+    width: 160px;
+    position: relative;
+}
+
+h3.circle {
+    /* width: 100px; */
+    padding: 30px 30px 20px 30px;
+    border-radius: 100%;
+    /* height: 100px; */
+    display: inline-block;
+    background: #ed512f;
+    color: #fff;
+}
+
+h3.circle2 {
+    /* width: 100px; */
+    padding: 30px 30px 20px 30px;
+    border-radius: 100%;
+    /* height: 100px; */
+    display: inline-block;
+    background: #ed512f;
+    color: #fff;
+}
+
+.circle-text {
+	font-size: 1em;
+}
+
+.hardal {
+	background: #fca720;
+	border: 1px solid #ffcb78;
+}
+
+.hardal:focus {
+	background: #fca720;
+	border: 1px solid #ffcb78;
+}
+
+.hardal:hover {
+	background: #fca720;
+	border: 1px solid #ffcb78;
+}
+
+.hardal:active {
+	background: #fca720;
+	border: 1px solid #ffcb78;
+}
+
+.modal-header {
+	background: #fca720;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+#newRepairStep h1
+{
+  font-size:30px;
+}
